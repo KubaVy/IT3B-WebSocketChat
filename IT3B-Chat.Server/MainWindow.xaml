@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBlock Margin="20,50,0,50" TextWrapping="Wrap" Text="" Background="LightGray" Name="Txt1" HorizontalAlignment="Left" Width="502"/>
+        <Label Content="Zprávy" HorizontalAlignment="Left" Margin="20,50,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="15" RenderTransformOrigin="-0.843,0.375"/>
+        <TextBlock Margin="527,50,10,50" TextWrapping="Wrap" Text="" Name="Txt2" Background="LightBlue"/>
+        <Label Content="Klienti" HorizontalAlignment="Left" Margin="527,50,0,0" VerticalAlignment="Top" FontSize="15" FontStyle="Italic"/>
 
     </Grid>
 </Window>
