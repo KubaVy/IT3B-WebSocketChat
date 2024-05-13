@@ -11,12 +11,12 @@
         <Label Content="Zprávy" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="15" RenderTransformOrigin="-0.843,0.375" Height="30"/>
         <TextBlock Margin="20,257,0,0" TextWrapping="Wrap" Text="" Name="Txt2" Background="LightBlue" HorizontalAlignment="Left" Width="356" Height="167" VerticalAlignment="Top"/>
         <Label Content="Klienti" HorizontalAlignment="Left" Margin="20,233,0,0" VerticalAlignment="Top" FontSize="15" FontStyle="Italic"/>
-        <TextBox Margin="0,257,229,0" TextWrapping="Wrap" Text="" Name="TextIp" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Width="190"/>
+        <TextBox Margin="381,257,0,0" TextWrapping="Wrap" Text="" Name="TextIp" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
         <TextBox Margin="381,34,108,0" TextWrapping="Wrap" Text="" Name="TextZ" Height="199" VerticalAlignment="Top"/>
         <Label Content="Vlastní zpráva" HorizontalAlignment="Left" Margin="381,10,0,393" FontStyle="Italic" FontSize="15" RenderTransformOrigin="-0.843,0.375"/>
-        <Label Content="Ip adresa"  Margin="0,233,350,0" FontSize="15" FontStyle="Italic" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Width="69"/>
-        <Button Content="Připojit" Name="Pripojit" Margin="0,292,229,0" HorizontalAlignment="Right" Width="190" Height="29" VerticalAlignment="Top"/>
-        <Button Content="Odpojit" Name="Odpojit" Margin="0,326,229,0" HorizontalAlignment="Right" Width="190" Height="29" VerticalAlignment="Top"/>
+        <Label Content="Ip adresa"  Margin="381,233,350,0" FontSize="15" FontStyle="Italic" Height="30" VerticalAlignment="Top"/>
+        <Button Content="Připojit" Name="Pripojit" Margin="381,292,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
+        <Button Content="Odpojit" Name="Odpojit" Margin="381,326,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
         <Button Content="Odeslat" Name="Odeslat" Margin="0,44,24,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Right" Width="65"/>
 
     </Grid>
