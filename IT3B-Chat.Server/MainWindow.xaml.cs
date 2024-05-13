@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WebSocketSharp;
+using WebSocketSharp.Server;
 
 namespace IT3B_Chat.Server
 {
@@ -20,5 +22,15 @@ namespace IT3B_Chat.Server
   {
    InitializeComponent();
   }
+
+        private void Pripojit_Click(object sender, RoutedEventArgs e)
+        {
+            string ip = TextIp.Text;
+            WebSocketServer server = new WebSocketServer($"ws://{ip}");
+
+            server.Start();
+            MessageBox.Show("Server Connected");
+            server.Stop();
+        }
  }
 }
